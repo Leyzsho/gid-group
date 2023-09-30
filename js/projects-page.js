@@ -1,0 +1,1 @@
+"use strict";function animationScrollEvents(){scrollY>=window.innerHeight||document.documentElement.scrollTop>=window.innerHeight?gsap.to(".btn-toUp",{duration:.5,opacity:1,x:0,y:0,rotate:-90,ease:"power3"}):gsap.to(".btn-toUp",{duration:.5,opacity:0,x:100,y:100,rotate:0,ease:"power3"})}window.addEventListener("scroll",animationScrollEvents);

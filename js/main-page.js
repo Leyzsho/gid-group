@@ -1,0 +1,1 @@
+"use strict";function form(){var e=document.querySelector(".get-catalog__form"),t=document.querySelector(".get-catalog__input");e.addEventListener("submit",(function(e){e.preventDefault(),t.value=""}))}form();
